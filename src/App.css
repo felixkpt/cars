@@ -88,3 +88,13 @@ footer ul.footer-list li a:hover {
   color: gray;
   text-decoration: underline;
 }
+@media(min-width: 508px) {
+  .w-sm  {
+    max-width:50% !important;;
+  }
+}
+@media(min-width: 768px) {
+  .w-md  {
+    max-width:25% !important;;
+  }
+}

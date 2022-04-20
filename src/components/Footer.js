@@ -2,7 +2,7 @@ const Footer = () => {
     return (
         <footer>
             <div className="flex flex-wrap w-full">
-                <div className="flex flex-col w-1/4 border">
+                <div className="flex flex-col w-full w-sm w-md border">
                     <h2 className="text-decoration-underline text-gray-100">Our Brand</h2>
                     <ul className="footer-list">
                         <li><a href="#">Homepage</a></li>
@@ -11,7 +11,7 @@ const Footer = () => {
                     </ul>
 
                 </div>
-                <div className="flex flex-col w-1/4 border">
+                <div className="flex flex-col w-full w-sm w-md border">
                     <h2 className="text-decoration-underline text-gray-100">Services</h2>
                     <ul className="footer-list">
                         <li><a href="#">Latest vehicles listing</a></li>
@@ -19,7 +19,7 @@ const Footer = () => {
                         <li><a href="#">Onsale portal</a></li>
                     </ul>
                 </div>
-                <div className="flex flex-col w-1/4 border">
+                <div className="flex flex-col w-full w-sm w-md border">
                     <h2 className="text-decoration-underline text-gray-100">Faqs</h2>
                     <ul className="footer-list">
                         <li><a href="#">How to join</a></li>
@@ -27,7 +27,7 @@ const Footer = () => {
                         <li><a href="#">Membership Fee</a></li>
                     </ul>
                 </div>
-                <div className="flex flex-col w-1/4 border">
+                <div className="flex flex-col w-full w-sm w-md border">
                     <h2 className="text-decoration-underline text-gray-100">About</h2>
                     <ul className="footer-list">
                         <li><a href="#">About us</a></li>
